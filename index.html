@@ -3,92 +3,305 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarah Zhou | Portfolio</title>
-
+    <meta name="description" content="Student portfolio for Xuanzhi (Sarah) Zhou, a high school senior interested in mathematics, data science, economics, research, and community leadership.">
+    <title>Xuanzhi (Sarah) Zhou | Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add("js");</script>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header class="site-header">
+        <a class="brand" href="#top">Sarah <span>Zhou</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#activities">Activities</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="header-link" href="#contact">Get in touch</a>
+    </header>
 
-<header>
-    <h1>Sarah Zhou</h1>
-    <p>High School Senior | STEM • Economics • Research</p>
-</header>
+    <main id="top">
+        <section class="hero section-shell">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span></span>Portfolio · Class of 2026</p>
+                <h1>Xuanzhi <em>(Sarah)</em> Zhou</h1>
+                <p class="hero-text">High school senior from Boulder, Colorado exploring the intersection of mathematics, data science, economics, and community-driven problem solving.</p>
+                <div class="button-row">
+                    <a class="button primary" href="#projects">View projects</a>
+                    <a class="button secondary" href="#about">About me</a>
+                </div>
+            </div>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-</nav>
+            <div class="hero-visual reveal">
+                <figure class="portrait-card">
+                    <img src="assets/hero-portrait.jpg" alt="Illustration of a student study scene">
+                    <figcaption>
+                        <strong>Boulder, CO</strong>
+                        <span>Fairview High School</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
 
-<main>
+        <section id="about" class="section-shell split-section">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>About</p>
+                <h2>A curious student across STEM and the humanities.</h2>
+                <p>I'm a senior at Fairview High School in Boulder, Colorado. My interests sit at the intersection of mathematics, computer science, and economics. I love asking careful questions and translating complex ideas into clear ones.</p>
+            </div>
 
-<section id="about">
-    <h2>About Me</h2>
+            <div class="about-grid">
+                <article class="panel coursework reveal">
+                    <h3>Coursework</h3>
+                    <p>Advanced mathematics, computer science, chemistry, economics, statistics, and humanities: a foundation built for interdisciplinary thinking.</p>
+                    <div class="score-grid">
+                        <div><span>AP Calculus BC</span><strong>5</strong></div>
+                        <div><span>AP Computer Science A</span><strong>5</strong></div>
+                        <div><span>AP Chemistry</span><strong>5</strong></div>
+                        <div><span>AP Statistics</span><strong>5</strong></div>
+                        <div><span>AP Microeconomics</span><strong>5</strong></div>
+                        <div><span>AP Chinese</span><strong>5</strong></div>
+                        <div><span>AP English Language</span><strong>5</strong></div>
+                        <div><span>AP U.S. History</span><strong>5</strong></div>
+                    </div>
+                </article>
 
-    <p>
-        I'm a high school senior interested in mathematics,
-        economics, data science, and artificial intelligence.
-        I enjoy applying quantitative thinking to real-world
-        problems through research, programming, and teaching.
-    </p>
+                <aside class="metric-stack reveal" aria-label="Academic highlights">
+                    <div class="metric-card">
+                        <span>SAT</span>
+                        <strong>1520</strong>
+                        <p>out of 1600</p>
+                    </div>
+                    <div class="metric-card">
+                        <span>Weighted GPA</span>
+                        <strong>4.91</strong>
+                        <p>cumulative</p>
+                    </div>
+                    <div class="metric-card">
+                        <span>AP Exams · Score of 5</span>
+                        <strong>8</strong>
+                        <p>across STEM, economics and humanities</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
 
-</section>
+        <section id="education" class="section-shell">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>Education</p>
+                <h2>Academic journey and interests.</h2>
+            </div>
 
-<section id="projects">
+            <div class="two-column">
+                <article class="panel reveal">
+                    <p class="date">August 2023 - Present</p>
+                    <h3>Fairview High School</h3>
+                    <p class="role">Student</p>
+                    <p>Rigorous coursework across mathematics, computer science, chemistry, economics, and the humanities.</p>
+                </article>
 
-    <h2>Projects</h2>
+                <article class="panel reveal">
+                    <h3>Academic interests</h3>
+                    <ul class="clean-list">
+                        <li>Mathematics and quantitative reasoning</li>
+                        <li>Computer science and programming</li>
+                        <li>Economics and policy analysis</li>
+                        <li>Scientific research</li>
+                        <li>Artificial intelligence applications</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-    <div class="card">
-        <h3>Bird Nest Material Science Project</h3>
-        <p>
-            Science fair project exploring the material properties
-            and structural characteristics of bird nests.
-        </p>
-    </div>
+        <section id="projects" class="section-shell">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>Projects & Research</p>
+                <h2>Independent work driven by curiosity.</h2>
+                <p>A selection of research projects at the intersection of science, data, and social questions.</p>
+            </div>
 
-    <div class="card">
-        <h3>Government Budget Efficiency AI Project</h3>
-        <p>
-            Data science project analyzing government budget
-            efficiency using statistical methods and AI.
-        </p>
-    </div>
+            <div class="card-grid">
+                <article class="project-card reveal">
+                    <p class="card-kicker">Science Research</p>
+                    <h3>Bird Nest Material Science</h3>
+                    <p>Science fair research project exploring material properties and biological structures involved in bird nest construction, examining how natural systems balance strength, flexibility, and available materials.</p>
+                    <div class="tag-row">
+                        <span>Experimental design</span>
+                        <span>Materials analysis</span>
+                        <span>Scientific reasoning</span>
+                    </div>
+                </article>
 
-</section>
+                <article class="project-card reveal">
+                    <p class="card-kicker">Data Science + AI</p>
+                    <h3>Government Budget Efficiency</h3>
+                    <p>Applied data science and AI methods to analyze government budget efficiency, bringing evidence-based thinking to questions in economics and public policy.</p>
+                    <div class="tag-row">
+                        <span>Data analysis</span>
+                        <span>AI methods</span>
+                        <span>Policy analysis</span>
+                        <span>Problem solving</span>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-<section id="experience">
+        <section id="activities" class="section-shell">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>Leadership & Activities</p>
+                <h2>Learning by leading and giving back.</h2>
+            </div>
 
-    <h2>Experience</h2>
+            <div class="activity-grid">
+                <article class="activity-card reveal">
+                    <p class="date">Aug 2024 - Present</p>
+                    <h3>Fairview High School Math Club</h3>
+                    <p class="role">Co-President</p>
+                    <ul>
+                        <li>Explained challenging mathematics concepts to peers</li>
+                        <li>Designed engaging math presentations</li>
+                        <li>Collaborated on educational activities and events</li>
+                    </ul>
+                </article>
 
-    <div class="card">
-        <h3>Bohua Chinese School</h3>
-        <p>Chinese Taught English Teacher (2024–2026)</p>
-    </div>
+                <article class="activity-card reveal">
+                    <p class="date">Jan 2024 - Present</p>
+                    <h3>Music for Teen Mental Health (M4TMH)</h3>
+                    <p class="role">Treasurer & Performer</p>
+                    <ul>
+                        <li>Supported mental health awareness initiatives</li>
+                        <li>Performed at community events</li>
+                        <li>Helped raise awareness and funds through music</li>
+                    </ul>
+                </article>
 
-</section>
+                <article class="activity-card reveal">
+                    <p class="date">Jan 2024 - Present</p>
+                    <h3>Greater Boulder Youth Orchestra</h3>
+                    <p class="role">Symphony Member, Flute</p>
+                    <ul>
+                        <li>Performed at Macky Auditorium, CU Boulder</li>
+                        <li>Built collaborative musicianship through orchestral repertoire</li>
+                    </ul>
+                </article>
 
-<section id="contact">
+                <article class="activity-card reveal">
+                    <p class="date">Sep 2023 - Present</p>
+                    <h3>Fairview Speech and Debate Club</h3>
+                    <p class="role">Assistant Captain</p>
+                    <ul>
+                        <li>National qualifier and state octafinalist</li>
+                        <li>Mentored novice members and led weekly practices</li>
+                        <li>Sharpened public speaking and argumentation</li>
+                    </ul>
+                </article>
 
-    <h2>Contact</h2>
+                <article class="activity-card reveal">
+                    <p class="date">Sep 2023 - Present</p>
+                    <h3>Back to Bach Project</h3>
+                    <p class="role">Assistant Regional Director</p>
+                    <ul>
+                        <li>Supported music education outreach events</li>
+                        <li>Brought music opportunities to elementary students across schools and libraries</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-    <p>Email: xzhou0306@gmail.com</p>
+        <section class="section-shell">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>Experience</p>
+                <h2>Teaching, mentoring, and adapting.</h2>
+            </div>
 
-    <p>
-        LinkedIn:
-        <a href="#">Add your LinkedIn URL here</a>
-    </p>
+            <article class="panel experience-panel reveal">
+                <div>
+                    <p class="date">September 2024 - Present</p>
+                    <h3>Bohua Chinese School</h3>
+                    <p class="role">Chinese Taught English (CTE) Teacher</p>
+                </div>
+                <div>
+                    <p>Started as a teaching assistant and grew into a primary instructor role, creating personalized lesson plans and guiding students through the HSK 1 curriculum.</p>
+                    <p>Expanded teaching responsibilities across multiple proficiency levels, adapting instructional approaches for different learners.</p>
+                    <div class="tag-row">
+                        <span>Communication</span>
+                        <span>Leadership</span>
+                        <span>Mentorship</span>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-</section>
+        <section id="skills" class="section-shell">
+            <div class="section-intro reveal">
+                <p class="eyebrow"><span></span>Skills</p>
+                <h2>A toolkit built across disciplines.</h2>
+            </div>
 
-</main>
+            <div class="skills-grid">
+                <article class="skill-card reveal">
+                    <h3>Technical</h3>
+                    <ul>
+                        <li>Python, basic</li>
+                        <li>Java, basic</li>
+                        <li>Data analysis concepts</li>
+                        <li>AI and technology exploration</li>
+                    </ul>
+                </article>
+                <article class="skill-card reveal">
+                    <h3>Academic</h3>
+                    <ul>
+                        <li>Mathematics</li>
+                        <li>Scientific research</li>
+                        <li>Problem solving</li>
+                        <li>Independent learning</li>
+                        <li>Quantitative analysis</li>
+                    </ul>
+                </article>
+                <article class="skill-card reveal">
+                    <h3>Communication</h3>
+                    <ul>
+                        <li>Public speaking</li>
+                        <li>Teaching</li>
+                        <li>Presentation design</li>
+                        <li>Collaboration</li>
+                    </ul>
+                </article>
+                <article class="skill-card reveal">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English, fluent</li>
+                        <li>Mandarin Chinese, conversationally fluent</li>
+                        <li>AP Chinese: 5</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-<footer>
-    © 2026 Sarah Zhou
-</footer>
+        <section id="contact" class="section-shell">
+            <div class="contact-panel reveal">
+                <p class="eyebrow"><span></span>Contact</p>
+                <h2>Let's connect and share ideas.</h2>
+                <p>Reach out about research, collaboration, mentorship, or a good conversation about math, data, or music.</p>
+                <div class="button-row">
+                    <a class="button primary" href="mailto:xzhou0306@gmail.com">Email</a>
+                    <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<script src="script.js"></script>
+    <footer>
+        <p>© 2026 Xuanzhi (Sarah) Zhou</p>
+        <p>Made with curiosity in Boulder, Colorado</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
