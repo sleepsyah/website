@@ -626,6 +626,78 @@ h1 em {
     font-weight: 800;
 }
 
+.project-details {
+    margin-top: 24px;
+    border-top: 1px solid rgba(98, 62, 118, 0.14);
+}
+
+.project-details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 52px;
+    color: var(--violet);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 900;
+    list-style: none;
+}
+
+.project-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.project-details summary::after {
+    content: "+";
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(111, 53, 183, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.66);
+    color: var(--plum);
+    font-size: 1.05rem;
+    line-height: 1;
+    transition: transform 160ms ease, background 160ms ease;
+}
+
+.project-details[open] summary::after {
+    content: "-";
+    background: var(--violet);
+    color: #fff;
+}
+
+.project-expanded {
+    display: grid;
+    gap: 10px;
+    padding: 18px;
+    border: 1px solid rgba(98, 62, 118, 0.12);
+    border-radius: 8px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 250, 244, 0.66)),
+        rgba(255, 255, 255, 0.56);
+}
+
+.project-expanded h4 {
+    margin-top: 8px;
+    color: var(--plum);
+    font-size: 0.82rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.project-expanded h4:first-child {
+    margin-top: 0;
+}
+
+.project-expanded p {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+}
+
 .activity-card {
     background: #fff;
 }
